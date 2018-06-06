@@ -14,7 +14,7 @@ public class JavaTest {
 	
 	public static long main(String str) {
 		
-		long val;
+		long val = 0;
 		
 		try {
 			
@@ -24,7 +24,8 @@ public class JavaTest {
 		
 		{
 			
-			val = -1L;
+			//val = -1L;
+			System.out.println("JavaTest.main()" + e.toString());
 			
 		}
 		return val;
@@ -32,7 +33,7 @@ public class JavaTest {
 	
 	public static void main(String[] args) {
 		
-		//Console should print -1 - per what is defined in catch exception. 
+		//Console should print -1 - per what is defined in catch exception.
 		// In this case, console won't print the exception but as defined prints -1.
 		System.out.println(JavaTest.main("@#$%"));
 	}
