@@ -7,7 +7,7 @@ public class AccessElementsFromArrayList {
 
 	public static void main(String[] args) {
 		
-		List<String> topCompanies = new ArrayList<>();
+		ArrayList<String> topCompanies = new ArrayList<>();
 		
 		//check if an ArrayList is empty
 		System.out.println("Is topCompanies list empty? :" + topCompanies.isEmpty());
