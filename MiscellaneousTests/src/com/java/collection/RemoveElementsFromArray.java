@@ -9,6 +9,8 @@ public class RemoveElementsFromArray {
 	public static void main(String[] args) {
 		
 		List<String> programmingLanguages = new ArrayList<>();
+		//or we can declare the following way
+		//ArrayList<String> programmingLanguages = new ArrayList<String>();
 		programmingLanguages.add("C");
 		programmingLanguages.add("C++");
 		programmingLanguages.add("Java");
@@ -22,8 +24,6 @@ public class RemoveElementsFromArray {
 		//Remove the element at index '5'
 		programmingLanguages.remove(5);
 		System.out.println("After remove(5): " + programmingLanguages);
-		
-		
 		
 	}
 	
